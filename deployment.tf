@@ -1,4 +1,4 @@
-resource "kubernetes_deployment_v1" "priyanshu_deployment" {
+resource "kubernetes_deployment_v1" "srihari_deployment" {
   metadata {
     name = "my-deployment"
     namespace = kubernetes_namespace.namespace-k8s.id
@@ -25,7 +25,7 @@ resource "kubernetes_deployment_v1" "priyanshu_deployment" {
 
       spec {
         container {
-          image = "priyanshu18/quote-app"
+          image = "srihari9963/quote-app"
           name  = "my-terraform-demo"
           port{
             container_port = 3000
