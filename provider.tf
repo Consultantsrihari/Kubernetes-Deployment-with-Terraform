@@ -9,6 +9,6 @@ terraform {
 
 provider "kubernetes" {
   # Configuration options
-   config_path    = "F:/Kubernetes-Deployment-Using-Terraform/.kube/config"
+   config_path    = "D:\gitrepos\Kubernets-deployment-Terraform\.kube\config"
    
 }
